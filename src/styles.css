@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(
+    10deg,
+    rgb(6, 2, 2) 32.4%,
+    rgb(107, 23, 17) 98.8%
+  );
+}
+section {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #ffe9c7;
+  border-radius: 5px;
+  padding: 30px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+}
+h1 {
+  background: rgb(6, 2, 2, 0.3);
+  color: #ffe9c7;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  margin: 20px 50px;
+  padding: 20px;
+  border: 1px solid #ffe9c7;
+  border-radius: 5px;
+}
+h2 {
+  color: #ffe9c7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+p {
+  color: #ffe9c7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 25px;
+  text-align: justify;
+}
+h5 {
+  background: linear-gradient(
+    89.2deg,
+    rgb(0, 0, 0) 15.4%,
+    rgb(255, 0, 0) 42.1%,
+    rgb(255, 216, 51) 78.3%,
+    rgb(255, 255, 255) 90.5%
+  );
+  color: #ffe9c7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  padding: 20px;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+button {
+  background: #ffe9c7;
+  color: rgb(107, 23, 17);
+  display: block;
+  font-family: fantasy;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 15px;
+  border: 1px solid rgb(107, 23, 17);
+  box-shadow: 2px 5px 5px rgb(58, 12, 9);
+  transition: all 150ms ease-in-out;
+}
+button:hover {
+  background: rgb(107, 23, 17, 0.5);
+  color: #ffe9c7;
+  cursor: pointer;
+}

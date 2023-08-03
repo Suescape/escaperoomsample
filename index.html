@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escape Room</title>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section>
+      <h1>ESCAPE ROOM</h1>
+      <h2>What is an escape room?</h2>
+      <hr />
+      <img
+        src="https://images.unsplash.com/photo-1569002925653-ed18f55d7292?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXNjYXBlJTIwcm9vbXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+        alt="Escape Room"
+        width="400"
+      />
+      <p>
+        An <strong>escape room</strong>, also known as <em>escape game</em> or
+        <em>puzzle room</em>, is a game in which a team of players discover
+        clues, solve puzzles, and accomplish tasks in one or more rooms in order
+        to accomplish a specific goal in a limited amount of time. The goal is
+        often to escape from the site of the game. Most escape games are
+        cooperative but competitive variants exist. <br /><br />
+        <img
+          src="http://www.who.com.au/media/46595/abc-escape-room.jpg"
+          alt="Escape Room"
+          width="400"
+        /><br />
+        Escape rooms test the
+        <strong>problem-solving</strong>,
+        <strong>lateral thinking</strong> ("thinking outside the box"), and
+        <strong>teamwork skills</strong>
+        of participants by providing a variety of puzzles and challenges that
+        unlock access to new items or areas in the game when solved. Escape room
+        puzzles include <em>word, number, and symbol puzzles</em> such as
+        substitution cyphers, riddles, crosswords, Sudoku, word search, and
+        mathematics; puzzles involving <em>physical objects</em> such as jigsaw
+        puzzles, matchstick puzzles, and chess; and physical activity such as
+        searching for a hidden physical object, assembling an object, navigating
+        mazes, or undoing a rope knot.
+      </p>
+      <h5>
+        <a href="http://www.mazescape.com.au/about.html">More Info</a>
+        <a href="http://www.mazescape.com.au/contact-us.html">Contact Us</a>
+      </h5>
+      <button>BOOK NOW</button>
+      <footer></footer>
+    </section>
+    <script>
+      function bookNow() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old are you?");
+        if (age < 18) {
+          alert("Sorry " + name + "! You can't book for the game. 🙁");
+        } else {
+          alert("Thank you, " + name + "! We will be in touch shortly! 😁");
+        }
+      }
+      let bookNowButton = document.querySelector("button");
+      bookNowButton.addEventListener("click", bookNow);
+    </script>
+  </body>
+</html>
